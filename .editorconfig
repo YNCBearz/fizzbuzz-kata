@@ -1,0 +1,15 @@
+# 根目錄設定
+root = true
+
+[*.{php}]
+charset = utf-8
+# 設定斷行字元 (lf, crlf)
+end_of_line = lf
+# 檔案最後是否留一行
+insert_final_newline = true
+# 設定縮排風格 (space, tab)
+indent_style = space
+# 設定縮排長度
+indent_size = 4
+# 設定是否清除前後空白
+trim_trailing_whitespace = true
